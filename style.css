@@ -11,6 +11,8 @@ html, body {
   color: #333;
   line-height: 1.2;
   animation: fadeIn 1.5s ease;
+  min-height: 100%;
+  padding: 0 10px;
 }
 
 .headings {
@@ -38,5 +40,15 @@ p {
 
   to {
     opacity: 1;
+  }
+}
+
+@media (max-width: 450px) {
+  .headings {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
   }
 }
